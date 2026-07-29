@@ -26,14 +26,14 @@ import re
 
 #todo: incorporate different collection types rather than a catch all publications, requires other changes to template
 publist = {
-    "proceeding": {
-        "file" : "proceedings.bib",
-        "venuekey": "booktitle",
-        "venue-pretext": "In the proceedings of ",
-        "collection" : {"name":"publications",
-                        "permalink":"/publication/"}
-        
-    },
+#    "proceeding": {
+#        "file" : "proceedings.bib",
+#        "venuekey": "booktitle",
+#        "venue-pretext": "In the proceedings of ",
+#        "collection" : {"name":"publications",
+#                        "permalink":"/publication/"}
+#        
+#    },
     "journal":{
         "file": "pubs.bib",
         "venuekey" : "journal",
@@ -55,7 +55,20 @@ def html_escape(text):
 
 
 for pubsource in publist:
+    # 1. Define standard month strings as macros to protect pybtex from crashing
+    months = ["jan", "feb", "mar", "apr", "may", "jun", "jul", "aug", "sep", "oct", "nov", "dec",
+              "july", "august", "september", "october", "november", "december"]
+    
+    # Initialize a clean parser configuration instance
     parser = bibtex.Parser()
+    
+    # Inject our macro rules directly into the engine's internal dictionary mapping
+    for m in months:
+        parser.macros[m] = m
+        parser.macros[m.upper()] = m
+        parser.macros[m.capitalize()] = m
+
+    # 2. Parse the target bib file directly using our new smart macro rules
     bibdata = parser.parse_file(publist[pubsource]["file"])
 
     #loop through the individual references in a given bibtex file
@@ -100,7 +113,9 @@ for pubsource in publist:
 
             #citation authors - todo - add highlighting for primary author?
             for author in bibdata.entries[bib_id].persons["author"]:
-                citation = citation+" "+author.first_names[0]+" "+author.last_names[0]+", "
+                first = author.first_names[0] if author.first_names else ""
+                last = author.last_names[0] if author.last_names else ""
+                citation = citation + " " + first + " " + last + ", "
 
             #citation title
             citation = citation + "\"" + html_escape(b["title"].replace("{", "").replace("}","").replace("\\","")) + ".\""
