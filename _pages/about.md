@@ -15,9 +15,9 @@ My current work focuses sharply on two core domains: **Industrial Applications o
 ---
 
 ## 🔥 Recent Highlights
-* **[Publication]** 📑 Our latest research has been featured on the **cover of Nature Microbiology**! Read the [full paper here](https://nature.com).
+* **[Publication]** 📑 Our latest research has been featured on the **cover of Nature Microbiology**! Read the [full paper here](https://www.nature.com/articles/s41564-024-01872-x).
   <div style="margin: 15px 0;">
-    <a href="https://nature.com" target="_blank">
+    <a href="https://www.nature.com/articles/s41564-024-01872-x" target="_blank">
       <img src="images/NatureMicrobiologyCover.jpeg" alt="Nature Microbiology Cover" style="max-width: 220px; border: 1px solid #ddd; border-radius: 4px; box-shadow: 0 4px 8px rgba(0,0,0,0.1);">
     </a>
   </div>
