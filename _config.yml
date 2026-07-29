@@ -23,7 +23,7 @@ repository               : ""
 #               Additional customization can be done by editing /_includes/author-profile.html
 author:
   # Biographic information
-  avatar           : "images/PPXL_s_Img70187.jpg"
+  avatar           : "PPXL_s_Img70187.jpg"
   name             : "Neil Budko"
   pronouns         : # example: "she/her"  
   bio              : "Short biography for the left-hand sidebar"
