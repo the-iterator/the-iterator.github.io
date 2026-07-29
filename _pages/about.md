@@ -8,9 +8,9 @@ redirect_from:
   - /about.html
 ---
 
-I am an Applied Mathematician at the Delft Institute of Applied Mathematics (DIAM), TU Delft. While my foundational research spans diverse mathematical disciplines, my core focus is bridging advanced theory with high-impact real-world solutions. 
+I am an Applied Mathematician at the Delft Institute of Applied Mathematics (DIAM), TU Delft. As a polymath, my applied work is powered by deep expertise across interconnected fields of mathematics, physics, and biology. I leverage complex toolkits from differential and integral equations, numerical analysis, and data science to tackle unconventional, interdisciplinary problems and bridge advanced theory with high-impact real-world solutions.
 
-My work centers on **Industrial Applications of Mathematics** and pioneering **Mathematics for Agriculture**, transforming complex data and physical phenomena into predictive engineering tools.
+My current work focuses sharply on two core domains: **Industrial Applications of Mathematics** and pioneering **Mathematics for Agriculture**, transforming intricate datasets and physical phenomena into predictive tools.
 
 ---
 
@@ -18,16 +18,13 @@ My work centers on **Industrial Applications of Mathematics** and pioneering **M
 
 ### 🌾 Mathematics for Agriculture
 I develop and apply biology-informed and data-driven mathematical models to solve pressing challenges in agriculture. 
-* **Key Areas:** crop growth modeling, genomic prediction and discovery.
+* **Key Areas:** crop growth modeling, genomic prediction, and discovery.
 * **Impact:** Helping the agricultural sector optimize yields, reduce resource consumption, and adapt to climate challenges using rigorous mathematical frameworks.
 
 ### 🏭 Industrial Applications of Mathematics
 I am a Board Member of the [European Consortium for Mathematics in Industry (ECMI)](https://ecmiindmath.org) that helps to translate abstract mathematical theories into actionable engineering software and solutions.
 * **Key Areas:** Computational physics, inverse scattering, wave propagation, and imaging technologies.
 * **Impact:** Accelerating product development cycles and optimization for engineering firms, tech companies, and industrial consortia.
-
-### 🧩 Foundational Mathematics
-As a polymath, my applied work is powered by deep expertise across interconnected fields of mathematics. I leverage toolkits from differential equations, numerical analysis, and data science to tackle unconventional and interdisciplinary problems.
 
 ---
 
