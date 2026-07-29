@@ -26,11 +26,11 @@ author:
   avatar           : "PPXL_s_Img70187.jpg"
   name             : "Neil Budko"
   pronouns         : # example: "she/her"  
-  bio              : "Short biography for the left-hand sidebar"
-  location         : "Earth"
-  employer         : "Red Brick University"
-  uri              : # URL
-  email            : "none@example.org" 
+  bio              : "Associate Professor at DIAM, TU Delft. Focusing on industrial applications of mathematics."
+  location         : "Delft, Netherlands"
+  employer         : "TU Delft"
+  uri              : "https://the-iterator.github.io"
+  email            : "N.V.Budko@tudelft.nl"
 
   # Academic websites
   academia         : # URL
