@@ -1,3 +1,13 @@
+---
+permalink: /
+title: "About Me"
+excerpt: "About me"
+author_profile: true
+redirect_from: 
+  - /about/
+  - /about.html
+---
+
 # About Me
 
 I am an Applied Mathematician at the Delft Institute of Applied Mathematics (DIAM), TU Delft. While my foundational research spans diverse mathematical disciplines, my core focus is bridging advanced theory with high-impact real-world solutions. 
