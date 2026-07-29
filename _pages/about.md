@@ -41,4 +41,8 @@ I am a Board Member of the [European Consortium for Mathematics in Industry (ECM
 
 ## 🤝 Collaboration & Opportunities
 * **For Industry Partners:** I am always open to exploring contract research, joint consortia, or consulting on complex modeling problems.
-* **For Students (BSc/MSc/PhD):** If you want to see how deep mathematics solves real-world food security and industrial challenges, check out my available thesis projects.
+* **For Students (BSc/MSc/PhD):** If you want to see how deep mathematics solves real-world food security and industrial challenges, I am actively seeking students for thesis projects in:
+  * 📊 *Project Track A:* Mathematical modeling for CropXR potato resilience datasets.
+  * 📉 *Project Track B:* Overparameterized regression problems.
+  * 🎛️ *Project Track C:* Computational wave propagation and industrial inverse problems.
+
