@@ -18,7 +18,7 @@ My current work focuses sharply on two core domains: **Industrial Applications o
 
 ### 🌾 Mathematics for Agriculture
 I develop and apply biology-informed and data-driven mathematical models to solve pressing challenges in agriculture. 
-* **Key Areas:** crop growth modeling, genomic prediction, and discovery.
+* **Key Areas:** crop growth modeling, genomic prediction and discovery.
 * **Impact:** Helping the agricultural sector optimize yields, reduce resource consumption, and adapt to climate challenges using rigorous mathematical frameworks.
 
 ### 🏭 Industrial Applications of Mathematics
