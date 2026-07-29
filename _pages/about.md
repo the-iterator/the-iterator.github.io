@@ -13,19 +13,18 @@ I am an Applied Mathematician at the Delft Institute of Applied Mathematics (DIA
 My current work focuses sharply on two core domains: **Industrial Applications of Mathematics** and pioneering **Mathematics for Agriculture**, transforming intricate datasets and physical phenomena into predictive tools.
 
 ---
-
 ## 🔥 Recent Highlights
-* **[Publication]** 📑 Our latest research has been featured on the **cover of Nature Microbiology**! Read the [full paper here](https://www.nature.com/articles/s41564-024-01872-x).
+
+### 🔬 Featured Publications
+* **[Cover Article]** 📑 Our latest research has been featured on the **cover of Nature Microbiology**! Read the [full paper here](https://www.nature.com/articles/s41564-024-01872-x).
   <div style="margin: 15px 0;">
     <a href="https://www.nature.com/articles/s41564-024-01872-x" target="_blank">
       <img src="images/NatureMicrobiologyCover.jpeg" alt="Nature Microbiology Cover" style="max-width: 220px; border: 1px solid #ddd; border-radius: 4px; box-shadow: 0 4px 8px rgba(0,0,0,0.1);">
     </a>
   </div>
-* **[Publication]** 🚀 Our new foundational paper on geometric interpretation of overparameterized multiple linear regression has been accepted for publication in **Machine Learning: Science and Technology**! Read the [full paper here](https://iopscience.iop.org/article/10.1088/2632-2153/ae911b).
-
+* **[Machine Learning]** 🚀 Our new foundational paper on geometric interpretation of overparameterized multiple linear regression has been accepted for publication in **Machine Learning: Science and Technology**! Read the [full paper here](https://iopscience.iop.org/article/10.1088/2632-2153/ae911b).
 
 ---
-
 ## 🎯 Research Focus Pillars
 
 ### 🌾 Mathematics for Agriculture
