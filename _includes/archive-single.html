@@ -23,7 +23,7 @@
           Published in <i>{{ post.venue }}</i>, {{ post.date | default: "1900-01-01" | date: "%Y" }}
         {% endif %}
       </p>
-    {% elif post.collection == 'teaching' %}
+    {% elsif post.collection == 'teaching' %}
       <p class="archive__item-excerpt" style="margin-top: 0; margin-bottom: 10px; font-size: 0.95em;">
         {{ post.type }}, <i>{{ post.venue }}</i>, {{ post.date | default: "1900-01-01" | date: "%Y" }}
       </p>
