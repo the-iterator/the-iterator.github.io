@@ -22,7 +22,7 @@ I develop and apply biology-informed and data-driven mathematical models to solv
 * **Impact:** Helping the agricultural sector optimize yields, reduce resource consumption, and adapt to climate challenges using rigorous mathematical frameworks.
 
 ### 🏭 Industrial Applications of Mathematics
-I am a Board Member of the European Consortium for Mathematics in Industry that helps to translate abstract mathematical theories into actionable engineering software and solutions.
+I am a Board Member of the [European Consortium for Mathematics in Industry (ECMI)](https://ecmiindmath.org) that helps to translate abstract mathematical theories into actionable engineering software and solutions.
 * **Key Areas:** Computational physics, inverse scattering, wave propagation, and imaging technologies.
 * **Impact:** Accelerating product development cycles and optimization for engineering firms, tech companies, and industrial consortia.
 
