@@ -1,79 +1,43 @@
 #!/usr/bin/env python
 # coding: utf-8
 
-# # Publications markdown generator for academicpages
-# 
-# Takes a set of bibtex of publications and converts them for use with [academicpages.github.io](academicpages.github.io). This is an interactive Jupyter notebook ([see more info here](http://jupyter-notebook-beginner-guide.readthedocs.io/en/latest/what_is_jupyter.html)). 
-# 
-# The core python code is also in `pubsFromBibs.py`. 
-# Run either from the `markdown_generator` folder after replacing updating the publist dictionary with:
-# * bib file names
-# * specific venue keys based on your bib file preferences
-# * any specific pre-text for specific files
-# * Collection Name (future feature)
-# 
-# TODO: Make this work with other databases of citations, 
-# TODO: Merge this with the existing TSV parsing solution
-
-
-from pybtex.database.input import bibtex
-import pybtex.database.input.bibtex 
-from time import strptime
-import string
-import html
 import os
 import re
+import html
+import string
+from time import strptime
+from pybtex.database.input import bibtex
+import pybtex.database.input.bibtex 
 
-#todo: incorporate different collection types rather than a catch all publications, requires other changes to template
+# Primary publication mapping configurations
 publist = {
-#    "proceeding": {
-#        "file" : "proceedings.bib",
-#        "venuekey": "booktitle",
-#        "venue-pretext": "In the proceedings of ",
-#        "collection" : {"name":"publications",
-#                        "permalink":"/publication/"}
-#        
-#    },
-    "journal":{
+    "journal": {
         "file": "pubs.bib",
-        "venuekey" : "journal",
-        "venue-pretext" : "",
-        "collection" : {"name":"publications",
-                        "permalink":"/publication/"}
+        "venuekey": "journal",
+        "venue-pretext": "",
+        "collection": {"name": "publications", "permalink": "/publication/"}
     } 
 }
 
-html_escape_table = {
-    "&": "&amp;",
-    '"': "&quot;",
-    "'": "&apos;"
-    }
-
-def html_escape(text):
-    """Produce entities within text."""
-    return "".join(html_escape_table.get(c,c) for c in text)
-
-
 for pubsource in publist:
-    # 1. Define standard month strings as macros to protect pybtex from crashing
+    # Define standard month strings as macros to protect pybtex from crashing
     months = ["jan", "feb", "mar", "apr", "may", "jun", "jul", "aug", "sep", "oct", "nov", "dec",
               "july", "august", "september", "october", "november", "december"]
     
-    # Initialize a clean parser configuration instance
+    # Initialize parser configuration instance
     parser = bibtex.Parser()
     
-    # Inject our macro rules directly into the engine's internal dictionary mapping
+    # Inject macro definitions to prevent unquoted month string exceptions
     for m in months:
         parser.macros[m] = m
         parser.macros[m.upper()] = m
         parser.macros[m.capitalize()] = m
 
-    # 2. Parse the target bib file directly using our new smart macro rules
+    # Parse the target bib file directly using the macro rules
     bibdata = parser.parse_file(publist[pubsource]["file"])
 
-    #loop through the individual references in a given bibtex file
+    # Loop through individual entries in the database file
     for bib_id in bibdata.entries:
-        #reset default date
         pub_year = "1900"
         pub_month = "01"
         pub_day = "01"
@@ -83,93 +47,74 @@ for pubsource in publist:
         try:
             pub_year = f'{b["year"]}'
 
-            #todo: this hack for month and day needs some cleanup
+            # Format publication date targets safely
             if "month" in b.keys(): 
-                if(len(b["month"])<3):
-                    pub_month = "0"+b["month"]
+                if len(b["month"]) < 3:
+                    pub_month = "0" + b["month"]
                     pub_month = pub_month[-2:]
-                elif(b["month"] not in range(12)):
-                    tmnth = strptime(b["month"][:3],'%b').tm_mon   
+                elif b["month"] not in range(12):
+                    tmnth = strptime(b["month"][:3], '%b').tm_mon   
                     pub_month = "{:02d}".format(tmnth) 
                 else:
                     pub_month = str(b["month"])
             if "day" in b.keys(): 
                 pub_day = str(b["day"])
-
                 
-            pub_date = pub_year+"-"+pub_month+"-"+pub_day
+            pub_date = pub_year + "-" + pub_month + "-" + pub_day
             
-            #strip out {} as needed (some bibtex entries that maintain formatting)
-            clean_title = b["title"].replace("{", "").replace("}","").replace("\\","").replace(" ","-")    
-
+            # Format clean titles and sanitize text symbols
+            clean_title = b["title"].replace("{", "").replace("}", "").replace("\\", "").replace(" ", "-")    
             url_slug = re.sub("\\[.*\\]|[^a-zA-Z0-9_-]", "", clean_title)
-            url_slug = url_slug.replace("--","-")
+            url_slug = url_slug.replace("--", "-")
 
-            md_filename = (str(pub_date) + "-" + url_slug + ".md").replace("--","-")
-            html_filename = (str(pub_date) + "-" + url_slug).replace("--","-")
+            md_filename = (str(pub_date) + "-" + url_slug + ".md").replace("--", "-")
+            html_filename = (str(pub_date) + "-" + url_slug).replace("--", "-")
 
-            #Build Citation from text
+            # Initialize clear clean text citation mapping
             citation = ""
 
-            #citation authors - todo - add highlighting for primary author?
-            for author in bibdata.entries[bib_id].persons["author"]:
-                first = author.first_names[0] if author.first_names else ""
-                last = author.last_names[0] if author.last_names else ""
-                citation = citation + " " + first + " " + last + ", "
+            # Extract author listings safely
+            if "author" in bibdata.entries[bib_id].persons:
+                for author in bibdata.entries[bib_id].persons["author"]:
+                    first = author.first_names[0] if author.first_names else ""
+                    last = author.last_names[0] if author.last_names else ""
+                    citation = citation + " " + first + " " + last + ", "
 
-            #citation title
-            citation = citation + "\"" + html_escape(b["title"].replace("{", "").replace("}","").replace("\\","")) + ".\""
+            # Append publication title cleanly
+            sanitized_title = b["title"].replace("{", "").replace("}", "").replace("\\", "")
+            citation = citation + '"' + sanitized_title + '."'
 
-            #add venue logic depending on citation type
-            venue = publist[pubsource]["venue-pretext"]+b[publist[pubsource]["venuekey"]].replace("{", "").replace("}","").replace("\\","")
+            # Append publication venue metadata parameters
+            venue = publist[pubsource]["venue-pretext"] + b[publist[pubsource]["venuekey"]].replace("{", "").replace("}", "").replace("\\", "")
+            citation = citation + " " + venue + ", " + pub_year + "."
 
-            citation = citation + " " + html_escape(venue)
-            citation = citation + ", " + pub_year + "."
+            # Clean and sanitize quote markers to ensure strict YAML validation bounds pass
+            yaml_title = sanitized_title.replace('"', '\\"')
+            yaml_citation = citation.replace('"', '\\"')
 
+            ## Construct YAML Front Matter Content Block
+            md = "---\n"
+            md += 'title: "' + yaml_title + '"\n'
+            md += "collection: " + publist[pubsource]["collection"]["name"] + "\n"
+            md += "permalink: " + publist[pubsource]["collection"]["permalink"] + html_filename + "\n"
+            md += "date: " + str(pub_date) + "\n"
+            md += "venue: '" + venue.replace("'", "\\'") + "'\n"
             
-            ## YAML variables
-            md = "---\ntitle: \""   + html_escape(b["title"].replace("{", "").replace("}","").replace("\\","")) + '"\n'
-            
-            md += """collection: """ +  publist[pubsource]["collection"]["name"]
+            if "url" in b.keys() and len(str(b["url"])) > 5:
+                md += "paperurl: '" + b["url"] + "'\n"
 
-            md += """\npermalink: """ + publist[pubsource]["collection"]["permalink"]  + html_filename
-            
-            note = False
-            if "note" in b.keys():
-                if len(str(b["note"])) > 5:
-                    md += "\nexcerpt: '" + html_escape(b["note"]) + "'"
-                    note = True
-
-            md += "\ndate: " + str(pub_date) 
-
-            md += "\nvenue: '" + html_escape(venue) + "'"
-            
-            url = False
-            if "url" in b.keys():
-                if len(str(b["url"])) > 5:
-                    md += "\npaperurl: '" + b["url"] + "'"
-                    url = True
-
-            md += "\ncitation: '" + html_escape(citation) + "'"
-
-            md += "\n---"
-
-            
-            ## Markdown description for individual page
-            if note:
-                md += "\n" + html_escape(b["note"]) + "\n"
-
-            if url:
-                md += "\n[Access paper here](" + b["url"] + "){:target=\"_blank\"}\n" 
-            else:
-                md += "\nUse [Google Scholar](https://scholar.google.com/scholar?q="+html.escape(clean_title.replace("-","+"))+"){:target=\"_blank\"} for full citation"
+            md += 'citation: "' + yaml_citation + '"\n'
+            md += "---\n\n"  # Closes header block with zero dirty description append blocks
 
             md_filename = os.path.basename(md_filename)
 
+            # Output clean individual page profiles safely
             with open("../_publications/" + md_filename, 'w', encoding="utf-8") as f:
                 f.write(md)
-            print(f'SUCCESSFULLY PARSED {bib_id}: \"', b["title"][:60],"..."*(len(b['title'])>60),"\"")
-        # field may not exist for a reference
+                
+            print(f'SUCCESSFULLY PARSED {bib_id}: "', b["title"][:60], "..."*(len(b['title'])>60), '"')
+            
         except KeyError as e:
-            print(f'WARNING Missing Expected Field {e} from entry {bib_id}: \"', b["title"][:30],"..."*(len(b['title'])>30),"\"")
+            print(f'WARNING Missing Expected Field {e} from entry {bib_id}: "', b["title"][:30], "..."*(len(b['title'])>30), '"')
             continue
+
