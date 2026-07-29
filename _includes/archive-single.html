@@ -48,5 +48,11 @@
     <p class="archive__item-excerpt" itemprop="description"><p>{{ post.excerpt | markdownify | remove: '<p>' | remove: '</p>' }}<strong><a href="{{ base_path }}{{ post.url }}" rel="permalink"> Read more</a></strong></p></p>
     {% endif %}
 
+    {% if post.paperurl %}
+      <p style="margin-top: 5px; margin-bottom: 15px; font-size: 0.9em;">
+        🔗 <a href="{{ post.paperurl }}" target="_blank" style="font-weight: bold; text-decoration: underline;">Access Journal / Publisher Link</a>
+      </p>
+    {% endif %}
+
   </article>
 </div>
