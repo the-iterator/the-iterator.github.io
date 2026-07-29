@@ -92,7 +92,7 @@ for pubsource in publist:
             yaml_title = sanitized_title.replace('"', '\\"')
             yaml_citation = citation.replace('"', '\\"')
 
-            ## Construct YAML Front Matter Content Block
+            # Construct YAML Front Matter Content Block
             md = "---\n"
             md += 'title: "' + yaml_title + '"\n'
             md += "collection: " + publist[pubsource]["collection"]["name"] + "\n"
@@ -103,8 +103,10 @@ for pubsource in publist:
             if "url" in b.keys() and len(str(b["url"])) > 5:
                 md += "paperurl: '" + b["url"] + "'\n"
 
-            md += 'citation: "' + yaml_citation + '"\n'
-            md += "---\n\n"  # Closes header block with zero dirty description append blocks
+            # Use single quotes around the citation value to allow internal unescaped double quotes!
+            md += "citation: '" + citation.replace("'", "\\'") + "'\n"
+            md += "---\n\n"  # THIS CLOSES THE HEADERS PERFECTLY
+
 
             md_filename = os.path.basename(md_filename)
 
