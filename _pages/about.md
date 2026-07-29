@@ -14,11 +14,18 @@ My current work focuses sharply on two core domains: **Industrial Applications o
 
 ---
 
+## 🔥 Recent Highlights
+* **[Publication]** 📑 Our latest research has been featured on the **cover of Nature Microbiology**! Read the [full paper here](https://www.nature.com/articles/s41564-024-01872-x).
+* **[Publication]** 🚀 Our new foundational paper on geometric interpretation of overparameterized multiple linear regression has been accepted for publication in **Machine Learning: Science and Technology**! Read the [full paper here](https://iopscience.iop.org/article/10.1088/2632-2153/ae911b).
+
+
+---
+
 ## 🎯 Research Focus Pillars
 
 ### 🌾 Mathematics for Agriculture
-I develop and apply biology-informed and data-driven mathematical models to solve pressing challenges in agriculture. 
-* **Key Areas:** crop growth modeling, genomic prediction and discovery.
+I develop and apply biology-informed and data-driven mathematical models to solve pressing challenges in agriculture. I serve as a Principal Investigator (PI) within the [CropXR Institute](https://cropxr.org/) Potato satellite program, collaborating closely with 12 industrial partners, specifically within the [HIP consortium](https://hollandinnovativepotato.nl/), to engineer climate-resilient crop solutions through smart breeding.
+* **Key Areas:** crop growth modeling, genomic prediction and discovery, data-driven plant resilience.
 * **Impact:** Helping the agricultural sector optimize yields, reduce resource consumption, and adapt to climate challenges using rigorous mathematical frameworks.
 
 ### 🏭 Industrial Applications of Mathematics
