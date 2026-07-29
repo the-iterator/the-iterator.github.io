@@ -6,36 +6,35 @@ author_profile: true
 ---
 
 {% if site.author.googlescholar %}
-  <div class="wordwrap">You can also find my articles on <a href="https://google.com{{site.author.googlescholar}}" target="_blank">my Google Scholar profile</a>.</div>
+  <div class="wordwrap" style="margin-bottom: 25px; font-size: 1.05em;">You can also find my articles on <a href="https://google.com{{site.author.googlescholar}}" target="_blank" style="color: #0076a3; text-decoration: underline; font-weight: bold;">my Google Scholar profile</a>.</div>
 {% endif %}
 
 {% include base_path %}
 
-<h2 style="margin-top: 30px;">Research Articles & Publications</h2>
-<hr />
+<h2 style="margin-top: 30px; border-bottom: 2px solid #333; padding-bottom: 10px; color: #222;">Research Articles & Publications</h2>
 
 {% for post in site.publications reversed %}
-  <div style="margin-bottom: 30px; border-bottom: 1px solid #f2f2f2; padding-bottom: 20px;">
+  <div style="margin-bottom: 35px; margin-top: 25px; border-bottom: 1px solid #f0f0f0; padding-bottom: 20px;">
     
-    <!-- 1. Title -->
-    <h3 style="margin-bottom: 6px; font-size: 1.15em; color: #222; font-weight: bold;">
+    <!-- 1. Beautiful Title -->
+    <h3 style="margin-bottom: 8px; font-size: 1.15em; color: #222; font-weight: bold; line-height: 1.4;">
       {{ post.title }}
     </h3>
 
-    <!-- 2. Clean Citation -->
-    <p style="margin-top: 0; margin-bottom: 10px; font-size: 0.95em; color: #444; line-height: 1.5;">
+    <!-- 2. Clean, Formal Citation -->
+    <p style="margin-top: 0; margin-bottom: 12px; font-size: 1em; color: #444; line-height: 1.6;">
       {% if post.citation %}
         {{ post.citation }}
       {% else %}
-        Published in <i>{{ post.venue }}</i>, {{ post.date | default: "1900-01-01" | date: "%Y" }}
+        Published in <i>{{ post.venue }}</i>, {{ post.date | default: "1900-01-01" | date: "%Y" }}.
       {% endif %}
     </p>
 
-    <!-- 3. Direct URL Link -->
+    <!-- 3. Streamlined Publisher/Download Link -->
     {% if post.paperurl %}
-      <p style="margin-top: 5px; margin-bottom: 0; font-size: 0.9em;">
-        🔗 <a href="{{ post.paperurl }}" target="_blank" style="font-weight: bold; text-decoration: underline; color: #0076a3;">Access Journal / Publisher Link</a>
-      </p>
+      <div style="font-size: 0.9em; margin-top: 5px;">
+        🔗 <a href="{{ post.paperurl }}" target="_blank" style="font-weight: bold; color: #0076a3; text-decoration: underline;">Access Journal / Publisher Link</a>
+      </div>
     {% endif %}
 
   </div>
