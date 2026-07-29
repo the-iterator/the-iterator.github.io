@@ -8,8 +8,6 @@ redirect_from:
   - /about.html
 ---
 
-# About Me
-
 I am an Applied Mathematician at the Delft Institute of Applied Mathematics (DIAM), TU Delft. While my foundational research spans diverse mathematical disciplines, my core focus is bridging advanced theory with high-impact real-world solutions. 
 
 My work centers on **Industrial Applications of Mathematics** and pioneering **Mathematics for Agriculture**, transforming complex data and physical phenomena into predictive engineering tools.
