@@ -10,6 +10,8 @@
 main:
   - title: "About"
     url: /
+  - title: "Teaching"
+    url: /teaching/
   - title: "Publications"
     url: /publications/
   - title: "Research Projects"
