@@ -20,17 +20,22 @@ Our industrial consortium partner, **Crop Consult**, has proposed specific data-
 
 <a href="/files/Crop-Consult-company-profile.pdf" target="_blank" style="background-color: #00a6d6; color: white; padding: 6px 14px; text-decoration: none; border-radius: 4px; font-weight: bold; display: inline-block; margin-bottom: 15px; font-size: 0.9em;">📥 Download Crop Consult Company Profile (PDF)</a>
 
-*   **Research Question 1:** Which environmental variables determine the time of setting and the size distribution of potato tubers?
+*   **Research Question 1: Which environmental variables determine the time of setting and the size distribution of potato tubers?**
     <br><span style="font-size: 0.9em; margin-left: 20px;">👉 [Download Project Blueprint (PDF, in Dutch)](/files/Crop-Consult-Problem-1-Knolzetting-maatsortering.pdf){:target="_blank"}</span>
 
-*   **Research Question 2:** How accurate are fertilization advices?
+*   **Research Question 2: How accurate are fertilization advices?**
     <br><span style="font-size: 0.9em; margin-left: 20px;">👉 [Download Project Blueprint (PDF, in Dutch)](/files/Crop-Consult-Problem-2-Accuraatheid-bemestingsadvies.pdf){:target="_blank"}</span>
+
+*   **Research Question 3: What and when to measure for real-time interventions?**
+    <br><span style="font-size: 0.9em; margin-left: 20px;">👉 [Download Project Blueprint (PDF, in Dutch)](/files/Crop-Consult-Problem-3-Welke-metingen-wanneer.pdf){:target="_blank"}</span>
 
 ---
 
-### 📉 Track B: Geometric Interpretation of Overparameterized Regression
+### 📉 Track B: Mathematical Foundations of Scientific Machine Learning
 * **Level:** MSc
-* **Description:** Investigate the foundational geometry underlying modern multi-linear regression operating in high-dimensional spaces ($p \gg n$), building upon our recent research published in *Machine Learning: Science and Technology*.
+* **Description:** Investigating fundamental questions such as when an ML model will make exact predictions or how to `bottleneck' an AI to avoid overfitting and hallucinations.
+
+---
 
 ### 🎛️ Track C: Inverse Problems & Computational Physics for Industry
 * **Level:** MSc / BSc
