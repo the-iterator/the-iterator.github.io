@@ -13,14 +13,23 @@ A summary of my ongoing and historical research initiatives bridging foundationa
 
 ### 🥔 CropXR Institute: Potato Satellite Program
 * **Role:** Principal Investigator (PI)
-* **Partners:** 12 Industrial Partners, including the **HIP (Holland Innovative Potato) Consortium**.
-* **Focus:** Developing biology-informed and data-driven mathematical frameworks for genomic prediction/discovery and plant resilience. We transform intricate physical datasets into predictive tools to engineer climate-resilient crop varieties through smart breeding models.
-
+* **Partners:** 12 Industrial Partners, including the **HIP (Holland Innovative Potato) Consortium**, Wageningen University and Research (Biometris), Utrecht University (Microbiology).
+* **Focus:** Developing biology-informed and data-driven mathematical frameworks for genomic prediction/discovery and plant resilience. 
+* **Impact:** We transform intricate physical datasets into predictive tools to engineer climate-resilient crop varieties through smart breeding models.
 ---
 
-## 🏭 Past & Fundamental Research Portfolios
+## 🏭 Past Projects
 
-### 🌐 Industrial Particle Transport Problems & Wave Propagation
-* **Focus:** Mathematical frameworks for computational physics, inverse scattering, wave propagation, and advanced imaging technologies. 
-* **Impact:** Translating abstract numerical theory into actionable engineering engines and optimization solutions for industrial partners and tech consortia.
+### 🥔 Flight to Vitality (FtV)
+* **Role:** Principal Investigator (PI)
+* **Partners:** 2 Industrial Partners (HZPC and Averis Seeds) and Utrecht University (Microbiology).
+* **Focus:** Predicting vitality of potato plants from the bio-physical properties of seed tubers. 
+* **Impact:** Developing a standard germination test for potato, read [interview about FtV here](https://www.tudelft.nl/agtech/projects/flight-to-vitality)
+
+### 🔬 Characterization of Dielectric Media under Electron Irradiation
+* **Role:** Principal Investigator (PI)
+* **Partner:** Thermo Fisher Scientific (formerly FEI Company).
+* **Focus:** Formulating self-consistent drift-diffusion-reaction mathematical systems to analyze charge dynamics and trapped potential distributions in insulating, un-coated dielectric specimens.
+* **Impact:** Preventing local charging artifacts and severe specimen distortion during extreme low-voltage field-emission scanning electron microscopy (FESEM).
+
 
