@@ -36,7 +36,7 @@ A summary of my ongoing and historical research initiatives bridging foundationa
 ### 📜️ Method of the Volume Integral Equation for Electromagnetic Scattering Problems
 * **Role:** Principal Investigator (PI)
 * **Focus:** Mathematical properties, e.g., spectrum, of the strongly singular integral operator arising in electromagnetic scattering.
-* **Impact:** Developing new preconditioners for accelerating the numerical solution of scattering problems of large penetrable objects
+* **Impact:** New preconditioner for accelerating numerical solution of scattering problems
 
 ### 📡️ Inverse Scattering
 * **Role:** PostDoc
