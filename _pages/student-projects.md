@@ -15,6 +15,12 @@ I actively supervise BSc and MSc thesis projects at the **Delft Institute of App
 * **Level:** MSc or advanced BSc
 * **Description:** Work directly with large-scale genomic and phenotyping datasets generated within the CropXR Potato program. Develop or apply new statistical models and numerical algorithms to predict plant growth anomalies and optimal irrigation/fertilization profiles under changing environmental conditions.
 
+#### 🌾️ Questions from our industrial partners
+* **Partner:** Crop Consult 
+<a href="/files/Crop-Consult-company-profile.pdf" target="_blank" style="background-color: #00a6d6; color: white; padding: 10px 18px; text-decoration: none; border-radius: 4px; font-weight: bold; display: inline-block; margin-top: 10px;">📥 Download company profile (PDF)</a>
+* **Problem 1:** Which environmental variables determine the time of setting and the size distribution of potato tubers? <a href="/files/Crop-Consult-Problem-1-Knolzetting-maatsortering.pdf" target="_blank" style="background-color: #00a6d6; color: white; padding: 10px 18px; text-decoration: none; border-radius: 4px; font-weight: bold; display: inline-block; margin-top: 10px;">📥 Download project description here (PDF, in Dutch)</a>
+
+
 ### 📉 Track B: Geometric Interpretation of Overparameterized Regression
 * **Level:** MSc
 * **Description:** Investigate the foundational geometry underlying modern multi-linear regression operating in high-dimensional spaces ($p \gg n$), building upon our recent research published in *Machine Learning: Science and Technology*.
