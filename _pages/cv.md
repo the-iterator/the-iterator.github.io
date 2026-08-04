@@ -22,4 +22,4 @@ Work experience
 Service
 ======
 * Board Member of the European Consortium for Mathematics in Industry (ECMI)
-
+* Member of the DIAM Funding Committee
