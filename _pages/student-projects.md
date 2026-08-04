@@ -17,22 +17,23 @@ I actively supervise BSc and MSc thesis projects at the **Delft Institute of App
 
 #### 🌾 Industrial Focus — Crop Consult 
 
-<div style="margin-left: 25px; color: #444; border-left: 2px solid #e1e1e1; padding-left: 15px; margin-top: 10px; margin-bottom: 25px;">
+<div style="margin-left: 25px; border-left: 2px solid #e1e1e1; padding-left: 15px; margin-top: 10px; margin-bottom: 25px;" markdown="1">
 
 Our industrial consortium partner, **Crop Consult**, has proposed specific data-driven modeling challenges for incoming thesis students:
 
 <a href="/files/Crop-Consult-company-profile.pdf" target="_blank" style="background-color: #00a6d6; color: white; padding: 6px 14px; text-decoration: none; border-radius: 4px; font-weight: bold; display: inline-block; margin-bottom: 15px; font-size: 0.85em;">📥 Download Crop Consult Company Profile (PDF)</a>
 
-*   <strong>Research Question 1:</strong> Which environmental variables determine the time of setting and the size distribution of potato tubers?
-    <br><span style="font-size: 0.85em; margin-left: 20px;">👉 [Download Project Blueprint (PDF, in Dutch)](/files/Crop-Consult-Problem-1-Knolzetting-maatsortering.pdf){:target="_blank"}</span>
+*   **Research Question 1:** Which environmental variables determine the time of setting and the size distribution of potato tubers?  
+    👉 [Download Project Blueprint (PDF, in Dutch)](/files/Crop-Consult-Problem-1-Knolzetting-maatsortering.pdf){:target="_blank"}
 
-*   <strong>Research Question 2:</strong> How accurate are fertilization advices?
-    <br><span style="font-size: 0.85em; margin-left: 20px;">👉 [Download Project Blueprint (PDF, in Dutch)](/files/Crop-Consult-Problem-2-Accuraatheid-bemestingsadvies.pdf){:target="_blank"}</span>
+*   **Research Question 2:** How accurate are fertilization advices?  
+    👉 [Download Project Blueprint (PDF, in Dutch)](/files/Crop-Consult-Problem-2-Accuraatheid-bemestingsadvies.pdf){:target="_blank"}
 
-*   <strong>Research Question 3:</strong> What and when to measure for real-time interventions?
-    <br><span style="font-size: 0.85em; margin-left: 20px;">👉 [Download Project Blueprint (PDF, in Dutch)](/files/Crop-Consult-Problem-3-Wat-en-wanneer-meten.pdf){:target="_blank"}</span>
+*   **Research Question 3:** What and when to measure for real-time interventions?  
+    👉 [Download Project Blueprint (PDF, in Dutch)](/files/Crop-Consult-Problem-3-Wat-en-wanneer-meten.pdf){:target="_blank"}
 
 </div>
+
 
 ---
 
