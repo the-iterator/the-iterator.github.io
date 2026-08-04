@@ -16,8 +16,8 @@ Education
 
 Work experience
 ======
-* Since 2006: Numerical Analysis, DIAM, TU Delft
-* 1996-2006: Electromagnetic Research, EWI, TU Delft
+* Since 2010: Numerical Analysis, DIAM, TU Delft
+* 1996-2010: Electromagnetic Research, EWI, TU Delft
 
 Service
 ======
