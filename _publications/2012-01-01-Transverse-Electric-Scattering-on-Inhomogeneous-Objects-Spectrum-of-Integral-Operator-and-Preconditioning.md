@@ -1,5 +1,5 @@
 ---
-title: "Transverse Electric Scattering on Inhomogeneous Objects: Spectrum of Integral Operator and Preconditioning"
+title: "Transverse electric scattering on inhomogeneous objects: Spectrum of integral operator and preconditioning"
 collection: publications
 permalink: /publication/2012-01-01-Transverse-Electric-Scattering-on-Inhomogeneous-Objects-Spectrum-of-Integral-Operator-and-Preconditioning
 date: 2012-01-01

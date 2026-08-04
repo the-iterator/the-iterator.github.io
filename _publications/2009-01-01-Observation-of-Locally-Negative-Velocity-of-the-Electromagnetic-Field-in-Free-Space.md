@@ -1,5 +1,5 @@
 ---
-title: "Observation of Locally Negative Velocity of the Electromagnetic Field in Free Space"
+title: "Observation of locally negative velocity of the electromagnetic field in free space"
 collection: publications
 permalink: /publication/2009-01-01-Observation-of-Locally-Negative-Velocity-of-the-Electromagnetic-Field-in-Free-Space
 date: 2009-01-01

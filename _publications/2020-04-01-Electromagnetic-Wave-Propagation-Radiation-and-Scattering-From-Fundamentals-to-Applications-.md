@@ -1,5 +1,5 @@
 ---
-title: "Electromagnetic Wave Propagation, Radiation, and Scattering: From Fundamentals to Applications [Book Review]"
+title: "Electromagnetic wave propagation, radiation, and scattering: From fundamentals to applications [Book Review]"
 collection: publications
 permalink: /publication/2020-04-01-Electromagnetic-Wave-Propagation-Radiation-and-Scattering-From-Fundamentals-to-Applications-
 date: 2020-04-01

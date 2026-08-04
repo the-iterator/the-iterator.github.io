@@ -1,5 +1,5 @@
 ---
-title: "Two-Dimensional Object Characterization With an Effective Model"
+title: "Two-dimensional object characterization with an effective model"
 collection: publications
 permalink: /publication/1998-01-01-Two-Dimensional-Object-Characterization-With-an-Effective-Model
 date: 1998-01-01
