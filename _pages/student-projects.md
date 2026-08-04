@@ -15,19 +15,25 @@ I actively supervise BSc and MSc thesis projects at the **Delft Institute of App
 *   **Level:** MSc or advanced BSc
 *   **Description:** Work directly with large-scale genomic and phenotyping datasets generated within the CropXR Potato program. Develop or apply new statistical models and numerical algorithms to predict plant growth anomalies and optimal irrigation/fertilization profiles under changing environmental conditions.
 
-#### 🌾 Subsection: Industrial Focus — Crop Consult 
+#### 🌾 Industrial Focus — Crop Consult 
 Our industrial consortium partner, **Crop Consult**, has proposed specific data-driven modeling challenges for incoming thesis students:
 
-<a href="/files/Crop-Consult-company-profile.pdf" target="_blank" style="background-color: #00a6d6; color: white; padding: 6px 14px; text-decoration: none; border-radius: 4px; font-weight: bold; display: inline-block; margin-bottom: 15px; font-size: 0.9em;">📥 Download Crop Consult Company Profile (PDF)</a>
+<div style="margin-left: 25px; color: #444; border-left: 2px solid #e1e1e1; padding-left: 15px; margin-top: 10px; margin-bottom: 25px;">
 
-*   **Research Question 1: Which environmental variables determine the time of setting and the size distribution of potato tubers?**
-    <br><span style="font-size: 0.9em; margin-left: 20px;">👉 [Download Project Blueprint (PDF, in Dutch)](/files/Crop-Consult-Problem-1-Knolzetting-maatsortering.pdf){:target="_blank"}</span>
+Our industrial consortium partner, **Crop Consult**, has proposed specific data-driven modeling challenges for incoming thesis students:
 
-*   **Research Question 2: How accurate are fertilization advices?**
-    <br><span style="font-size: 0.9em; margin-left: 20px;">👉 [Download Project Blueprint (PDF, in Dutch)](/files/Crop-Consult-Problem-2-Accuraatheid-bemestingsadvies.pdf){:target="_blank"}</span>
+<a href="/files/Crop-Consult-company-profile.pdf" target="_blank" style="background-color: #00a6d6; color: white; padding: 6px 14px; text-decoration: none; border-radius: 4px; font-weight: bold; display: inline-block; margin-bottom: 15px; font-size: 0.85em;">📥 Download Crop Consult Company Profile (PDF)</a>
 
-*   **Research Question 3: What and when to measure for real-time interventions?**
-    <br><span style="font-size: 0.9em; margin-left: 20px;">👉 [Download Project Blueprint (PDF, in Dutch)](/files/Crop-Consult-Problem-3-Welke-metingen-wanneer.pdf){:target="_blank"}</span>
+*   <strong>Research Question 1:</strong> Which environmental variables determine the time of setting and the size distribution of potato tubers?
+    <br><span style="font-size: 0.85em; margin-left: 20px;">👉 [Download Project Blueprint (PDF, in Dutch)](/files/Crop-Consult-Problem-1-Knolzetting-maatsortering.pdf){:target="_blank"}</span>
+
+*   <strong>Research Question 2:</strong> How accurate are fertilization advices?
+    <br><span style="font-size: 0.85em; margin-left: 20px;">👉 [Download Project Blueprint (PDF, in Dutch)](/files/Crop-Consult-Problem-2-Accuraatheid-bemestingsadvies.pdf){:target="_blank"}</span>
+
+*   <strong>Research Question 3:</strong> What and when to measure for real-time interventions?
+    <br><span style="font-size: 0.85em; margin-left: 20px;">👉 [Download Project Blueprint (PDF, in Dutch)](/files/Crop-Consult-Problem-3-Wat-en-wanneer-meten.pdf){:target="_blank"}</span>
+
+</div>
 
 ---
 
