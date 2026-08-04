@@ -31,7 +31,7 @@ A summary of my ongoing and historical research initiatives bridging foundationa
 * **Role:** Principal Investigator (PI)
 * **Partner:** Thermo Fisher Scientific (formerly FEI Company).
 * **Focus:** Formulating self-consistent drift-diffusion-reaction mathematical systems to analyze charge dynamics and trapped potential distributions in insulating, un-coated dielectric specimens.
-* **Impact:** Preventing local charging artifacts and severe specimen distortion during extreme low-voltage field-emission scanning electron microscopy (FESEM).
+* **Impact:** Preventing local charging artifacts and image distortions in scanning electron microscopy (SEM).
 
 ### 📜️ Method of the Volume Integral Equation for Electromagnetic Scattering Problems
 * **Role:** Principal Investigator (PI)
