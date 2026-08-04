@@ -14,8 +14,9 @@ A summary of my ongoing and historical research initiatives bridging foundationa
 ### 🥔 CropXR Institute: Potato Satellite Program
 * **Role:** Principal Investigator (PI)
 * **Partners:** 12 Industrial Partners, including the **HIP (Holland Innovative Potato) Consortium**, Wageningen University and Research (Biometris), Utrecht University (Microbiology).
-* **Focus:** Developing biology-informed and data-driven mathematical frameworks for genomic prediction/discovery and plant resilience. 
+* **Focus:** Developing biology-informed and data-driven mathematical frameworks for genomic prediction/discovery and plant resilience.
 * **Impact:** We transform intricate physical datasets into predictive tools to engineer climate-resilient crop varieties through smart breeding models.
+
 ---
 
 ## 🏭 Past Projects
