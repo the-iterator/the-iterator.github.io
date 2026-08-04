@@ -16,7 +16,6 @@ I actively supervise BSc and MSc thesis projects at the **Delft Institute of App
 *   **Description:** Work directly with large-scale genomic and phenotyping datasets generated within the CropXR Potato program. Develop or apply new statistical models and numerical algorithms to predict plant growth anomalies and optimal irrigation/fertilization profiles under changing environmental conditions.
 
 #### 🌾 Industrial Focus — Crop Consult 
-Our industrial consortium partner, **Crop Consult**, has proposed specific data-driven modeling challenges for incoming thesis students:
 
 <div style="margin-left: 25px; color: #444; border-left: 2px solid #e1e1e1; padding-left: 15px; margin-top: 10px; margin-bottom: 25px;">
 
