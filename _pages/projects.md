@@ -33,4 +33,14 @@ A summary of my ongoing and historical research initiatives bridging foundationa
 * **Focus:** Formulating self-consistent drift-diffusion-reaction mathematical systems to analyze charge dynamics and trapped potential distributions in insulating, un-coated dielectric specimens.
 * **Impact:** Preventing local charging artifacts and severe specimen distortion during extreme low-voltage field-emission scanning electron microscopy (FESEM).
 
+### 📜️ Method of the Volume Integral Equation for Electromagnetic Scattering Problems
+* **Role:** Principal Investigator (PI)
+* **Focus:** Mathematical properties, e.g., spectrum, of the strongly singular integral operator arising in electromagnetic scattering.
+* **Impact:** Developing new preconditioners for accelerating the numerical solution of scattering problems of large penetrable objects
+
+### 📡️ Inverse Scattering
+* **Role:** PostDoc
+* **Partners:** TNO FEL, MoD
+* **Focus:** Imaging and effective inversion using electromagnetic field data.
+* **Impact:** Improved algorithms for Ground Penetrating Radar and landmine detection
 
