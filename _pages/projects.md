@@ -13,7 +13,7 @@ A summary of my ongoing and historical research initiatives bridging foundationa
 
 ### 🥔 CropXR Institute: Potato Satellite Program
 * **Role:** Principal Investigator (PI)
-* **Partners:** 12 Industrial Partners, including the **HIP (Holland Innovative Potato) Consortium**, Wageningen University and Research (Biometris), Utrecht University (Microbiology).
+* **Partners:** 12 industrial partners, including the HIP (Holland Innovative Potato) Consortium, Wageningen University and Research (Biometris, Centre for Crop Systems Analysis).
 * **Focus:** Developing biology-informed and data-driven mathematical frameworks for genomic prediction/discovery and plant resilience.
 * **Impact:** We transform intricate physical datasets into predictive tools to engineer climate-resilient crop varieties through smart breeding models.
 
@@ -23,7 +23,7 @@ A summary of my ongoing and historical research initiatives bridging foundationa
 
 ### 🥔 Flight to Vitality (FtV)
 * **Role:** Principal Investigator (PI)
-* **Partners:** 2 Industrial Partners (HZPC and Averis Seeds) and Utrecht University (Microbiology).
+* **Partners:** 2 industrial partners (HZPC and Averis Seeds) and Utrecht University (Microbiology).
 * **Focus:** Predicting vitality of potato plants from the bio-physical properties of seed tubers. 
 * **Impact:** Developing a standard germination test for potato, read [interview about FtV here](https://www.tudelft.nl/agtech/projects/flight-to-vitality)
 
