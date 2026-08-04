@@ -42,10 +42,26 @@ Skills
 * Skill 3
 
 Publications
-======
-  <ul>{% for post in site.publications reversed %}
-    {% include archive-single-cv.html %}
-  {% endfor %}</ul>
+{% include base_path %}
+
+{% for post in site.publications reversed %}
+  <div style="margin-bottom: 20px; font-size: 0.95em; line-height: 1.5;">
+    <!-- 1. Publication Text (Authors, Year, Title, Journal) -->
+    <span style="color: #333;">
+      {% if post.citation %}
+        {{ post.citation }}
+      {% else %}
+        <strong>{{ post.title }}</strong>. Published in <i>{{ post.venue }}</i>, {{ post.date | default: "1900-01-01" | date: "%Y" }}.
+      {% endif %}
+    </span>
+    <!-- 2. Minimalist Direct Link -->
+    {% if post.paperurl %}
+      <span style="font-size: 0.9em; margin-left: 5px;">
+        👉 <a href="{{ post.paperurl }}" target="_blank" style="font-weight: bold; color: #0076a3; text-decoration: underline;">Official Link</a>
+      </span>
+    {% endif %}
+  </div>
+{% endfor %}
   
 Talks
 ======
