@@ -42,6 +42,7 @@ Skills
 * Skill 3
 
 Publications
+============
 {% include base_path %}
 
 {% for post in site.publications reversed %}
