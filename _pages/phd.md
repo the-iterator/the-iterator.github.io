@@ -1,11 +1,8 @@
 ---
-permalink: /
+layout: archive
 title: "PhD's"
-excerpt: "Supervised candidates"
+permalink: /phd/
 author_profile: true
-redirect_from: 
-  - /phd/
-  - /phd.html
 ---
 
 ---
