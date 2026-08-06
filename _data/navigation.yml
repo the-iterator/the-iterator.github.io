@@ -16,6 +16,8 @@ main:
     url: /publications/
   - title: "Research Projects"
     url: /projects/
+  - title: "PhD's"
+    url: /phd/
   - title: "MSc/BSc Thesis Projects"
     url: /student-projects/
   - title: "CV"
