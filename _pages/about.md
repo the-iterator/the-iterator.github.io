@@ -22,7 +22,7 @@ My current work focuses sharply on two core domains: **Industrial Applications o
       <img src="images/NatureMicrobiologyCover.jpeg" alt="Nature Microbiology Cover" style="max-width: 220px; border: 1px solid #ddd; border-radius: 4px; box-shadow: 0 4px 8px rgba(0,0,0,0.1);">
     </a>
   </div>
-* **[Machine Learning]** 🚀 Our new foundational paper on geometric interpretation of overparameterized multiple linear regression has been accepted for publication in **Machine Learning: Science and Technology**! Read the [full paper here](https://iopscience.iop.org/article/10.1088/2632-2153/ae911b).
+* **[Machine Learning]** 🚀 Our new foundational paper on geometric interpretation of overparameterized multiple linear regression is published in **Machine Learning: Science and Technology**! Read the [full paper here](https://iopscience.iop.org/article/10.1088/2632-2153/ae911b).
 
 ---
 ## 🎯 Research Focus Pillars
