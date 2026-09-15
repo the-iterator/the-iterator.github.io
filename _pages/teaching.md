@@ -50,7 +50,19 @@ A summary of courses I teach.
   <summary style="color: #0076a3; cursor: pointer; font-weight: bold; margin-left: 20px;">📂 View Course Lecture Slides (PDF)</summary>
   <div style="margin-left: 40px; margin-top: 10px;" markdown="1">
 
-  1. 📄 [Lecture 1: Course structure, numerical computations in finite precision, round-off errors](/files/Lectures/NA-ODE/Slides/NA-ODE-1.pdf){:target="_blank"}
+  1. 📄 [Lecture 1: Numerical computations in finite precision](/files/Lectures/NA-ODE/Slides/NA-ODE-01.pdf){:target="_blank"}
+  2. 📄 [Lecture 2: Mathematical preliminaries](/files/Lectures/NA-ODE/Slides/NA-ODE-02.pdf){:target="_blank"}
+  3. 📄 [Lecture 3: Interpolation](/files/Lectures/NA-ODE/Slides/NA-ODE-03.pdf){:target="_blank"}
+  4. 📄 [Lecture 4: Numerical differentiation](/files/Lectures/NA-ODE/Slides/NA-ODE-04.pdf){:target="_blank"}
+  5. 📄 [Lecture 5: Nonlinear equations](/files/Lectures/NA-ODE/Slides/NA-ODE-05.pdf){:target="_blank"}
+  6. 📄 [Lecture 6: Systems of nonlinear equations](/files/Lectures/NA-ODE/Slides/NA-ODE-06.pdf){:target="_blank"}
+  7. 📄 [Lecture 7: Numerical integration](/files/Lectures/NA-ODE/Slides/NA-ODE-07.pdf){:target="_blank"}
+  8. 📄 [Lecture 8: Initial-value problem for ODE, stability of numerical time-integration](/files/Lectures/NA-ODE/Slides/NA-ODE-08.pdf){:target="_blank"}
+  9. 📄 [Lecture 9: Local and global truncation errors, consistency and convergence](/files/Lectures/NA-ODE/Slides/NA-ODE-09.pdf){:target="_blank"}
+  10. 📄 [Lecture 10: Systems of ODE's](/files/Lectures/NA-ODE/Slides/NA-ODE-10.pdf){:target="_blank"}
+  11. 📄 [Lecture 11: Boundary-value problems for ODE, Finite-Difference Method](/files/Lectures/NA-ODE/Slides/NA-ODE-11.pdf){:target="_blank"}
+  12. 📄 [Lecture 12: Review and exam questions - Part A](/files/Lectures/NA-ODE/Slides/NA-ODE-exam-prep-A.pdf){:target="_blank"}
+  13. 📄 [Lecture 13: Review and exam questions - Part B](/files/Lectures/NA-ODE/Slides/NA-ODE-exam-prep-B.pdf){:target="_blank"}
 
   </div>
   </details>
