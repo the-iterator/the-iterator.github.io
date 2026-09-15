@@ -47,3 +47,15 @@ A summary of courses I teach.
 * **Numerieke Wiskunde**, WBMT2049T2, Q4.
 * **Numerieke Wiskunde**, WI2032TH, Q4.
 
+  <details>
+  <summary style="color: #0076a3; cursor: pointer; font-weight: bold; margin-left: 20px;">📂 View Course Lecture Slides (PDF)</summary>
+  <div style="margin-left: 40px; margin-top: 10px;" markdown="1">
+
+  1. 📄 [Lecture 1: Course structure, numerical computations in finite precision, round-off errors](/files/Lectures/NA-ODE/Slides/NA-ODE-1.pdf){:target="_blank"}
+
+  </div>
+  </details>
+
+
+---
+
