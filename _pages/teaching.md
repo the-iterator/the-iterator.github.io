@@ -44,8 +44,7 @@ A summary of courses I teach.
 * **Numerical Analysis for Partial Differential Equations**, TW3730TU, Q1. 
 * **Final Minor Project - Part A**, TW3715TU, Q1.
 * **Final Minor Project - Part B**, TW3725TU, Q2.
-* **Numerieke Wiskunde**, WBMT2049T2, Q4.
-* **Numerieke Wiskunde**, WI2032TH, Q4.
+* **Numerieke Wiskunde**, WBMT2049T2 and WI2032TH, Q4.
 
   <details>
   <summary style="color: #0076a3; cursor: pointer; font-weight: bold; margin-left: 20px;">📂 View Course Lecture Slides (PDF)</summary>
