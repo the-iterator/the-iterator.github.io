@@ -16,10 +16,10 @@ Education
 
 Work experience
 ======
-* Since 2010: Numerical Analysis, DIAM, TU Delft
-* 1996-2010: Electromagnetic Research, EWI, TU Delft
+* Since 2010: Numerical Analysis, DIAM, TU Delft 🇳🇱
+* 1996-2010: Electromagnetic Research, EWI, TU Delft 🇳🇱
 
 Service
 ======
-* Board Member and Treasurer of the European Consortium for Mathematics in Industry (ECMI)
+* Board Member and Treasurer of the European Consortium for Mathematics in Industry (ECMI) 🇪🇺
 * Member of the DIAM Funding Committee
