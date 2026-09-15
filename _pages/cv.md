@@ -11,8 +11,8 @@ redirect_from:
 
 Education
 ======
-* PhD in Physics and Mathematics, Kharkiv State University, Ukraine, 1995
-* MSc in Radiophysics, Kharkiv State University, Ukraine, 1992
+* PhD in Physics and Mathematics, Kharkiv State University, Ukraine, 1995 🇺🇦
+* MSc in Radiophysics, Kharkiv State University, Ukraine, 1992 🇺🇦
 
 Work experience
 ======
@@ -21,5 +21,5 @@ Work experience
 
 Service
 ======
-* Board Member of the European Consortium for Mathematics in Industry (ECMI)
+* Board Member and Treasurer of the European Consortium for Mathematics in Industry (ECMI)
 * Member of the DIAM Funding Committee
