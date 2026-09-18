@@ -8,9 +8,9 @@ redirect_from:
   - /about.html
 ---
 
-I am an Applied Mathematician at the Delft Institute of Applied Mathematics (DIAM), TU Delft. I leverage complex toolkits from differential and integral equations, numerical analysis, and data science to tackle unconventional, interdisciplinary problems and bridge advanced theory with high-impact real-world solutions.
+I am an Applied Mathematician at the Delft Institute of Applied Mathematics (DIAM), TU Delft. I combine differential and integral equations, numerical analysis, and data science to tackle complex, interdisciplinary challenges and bridge advanced theory with real-world solutions.
 
-My current work focuses sharply on two core domains: **Industrial Applications of Mathematics** and pioneering **Mathematics for Agriculture**, transforming intricate datasets and physical phenomena into predictive tools.
+My work focuses on two core domains: **Industrial Mathematics** and **Mathematics for Agriculture**, where I uncover underlying physical phenomena and transform intricate datasets into predictive tools.
 
 ---
 ## 🔥 Recent Highlights
