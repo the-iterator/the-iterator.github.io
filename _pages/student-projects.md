@@ -24,13 +24,13 @@ Our industrial consortium partner, **Crop Consult**, has proposed specific data-
 <a href="/files/Crop-Consult-company-profile.pdf" target="_blank" style="background-color: #00a6d6; color: white; padding: 6px 14px; text-decoration: none; border-radius: 4px; font-weight: bold; display: inline-block; margin-bottom: 15px; font-size: 0.85em;">📥 Download Crop Consult Company Profile (PDF)</a>
 
 *   **Research Question 1:** Which environmental variables determine the time of setting and the size distribution of potato tubers?  
-    👉 [Download Project Blueprint (PDF, in Dutch)](/files/Crop-Consult-Problem-1-Knolzetting-maatsortering.pdf){:target="_blank"}
+    👉 [Download project description (PDF)](/files/Modelling-size-distribution.pdf){:target="_blank"}
 
 *   **Research Question 2:** How accurate are fertilization advices?  
-    👉 [Download Project Blueprint (PDF, in Dutch)](/files/Crop-Consult-Problem-2-Accuraatheid-bemestingsadvies.pdf){:target="_blank"}
+    👉 [Download project descrition (PDF)](/files/Value-of-advice.pdf){:target="_blank"}
 
 *   **Research Question 3:** What and when to measure for real-time interventions?  
-    👉 [Download Project Blueprint (PDF, in Dutch)](/files/Crop-Consult-Problem-3-Wat-en-wanneer-meten.pdf){:target="_blank"}
+    👉 [Download project description (PDF)](/files/Optimal-measurements.pdf){:target="_blank"}
 
 </div>
 
